@@ -1,6 +1,5 @@
 class GameStatus {
   int turn = 0;
-}
   void checkWinner() {
     for (AbstractKoma k : komaList.komaArray) {
       if (k.name.equals("lion")) {
@@ -11,3 +10,4 @@ class GameStatus {
       }
     }
   }
+}
